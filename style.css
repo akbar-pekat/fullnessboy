@@ -29,34 +29,42 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 600;
+  color: #000;
 }
 
 .card .category {
-  padding: 0 0 .5rem 0;
-  font-weight: 300;
+  padding: 0 0 .3rem 0;
+  font-weight: 600;
   font-size: 12px;
 }
 
 .card .category span {
-  background-color: #000;
+  background-color: #ffa93f;
   color: #fff;
-  padding: .3rem;
+  padding: .1rem .3rem;
   border-radius: 50px;
 }
 
 .card .category .chefcheck {
   text-align: right;
   float: right;
-}
-.card .desc {
-  padding: .5rem 0 0 0;
-  font-size: 12px;
-  display: flex;
-  font-weight: 300;
+  fill: #ffa93f;
 }
 
-.card .desc .descbox:nth-child(2) {
-  margin: 0 0 0 .5rem;
+.card .desc {
+  padding: .3rem 0 0 0;
+  font-size: 12px;
+  display: flex;
+  font-weight: 400;
+
+}
+
+.card .desc .descbox {
+  background-color: #ffa93f;
+  color: #fff;
+  padding: .1rem .3rem;
+  margin: 0 .1rem;
+  border-radius: 50px;
 }
 
 .card-text {
