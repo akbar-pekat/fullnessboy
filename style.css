@@ -76,7 +76,3 @@ body {
   background-position: center;
   background-size: cover;
 }
-
-.card:hover .thumbnail {
-  transform: scale(1.1);
-}
