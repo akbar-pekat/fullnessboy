@@ -77,6 +77,6 @@ body {
   background-size: cover;
 }
 
-.sourceinfo {
-  margin: 0 2rem;
+.card:hover .thumbnail {
+  transform: scale(1.1);
 }
