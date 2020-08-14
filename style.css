@@ -76,3 +76,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.info {
+  margin: 0 2rem;
+}
