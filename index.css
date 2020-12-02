@@ -40,8 +40,8 @@ nav .menu .icon:hover {
   overflow-x: scroll;
 }
 .con .recommend .item {
-  min-width: 40vw;
-  height: 20vw;
+  min-width: 50vw;
+  height: 10vh;
   margin: .5rem 0 0 1rem;
   background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
   animation: 1s shine infinite;
@@ -77,7 +77,7 @@ hr {
 }
 .con .story .item {
   min-width: 70vw;
-  height: 65vw;
+  height: 40vh;
   margin: .5rem 0 0 1rem;
   background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
   animation: 1s shine infinite;
