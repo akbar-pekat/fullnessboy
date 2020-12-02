@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo img {
+  height: 10vw;
+}
+nav .menu svg {
+  width: 7vw;
+  height: 7vw;
+}
+nav .menu .icon {
+  padding: .8rem;
+  transition: all .3s ease;
+}
+nav .menu .icon:hover {
+  background-color: #F5F5F5;
+  border-radius: 15px;
+}
+/*pakevw*/
+.con .title {
+  padding: 0 1rem;
+  font-size: 4vw;
+}
+.con .recommend {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+}
+.con .recommend .item {
+  min-width: 40vw;
+  height: 20vw;
+  margin: .5rem 0 0 1rem;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  animation: 1s shine infinite;
+  border-radius: 15px;
+}
+@keyframes shine {
+  0% {
+    background-position: -125px;
+  }
+  40%,
+  100% {
+    background-position: 125px;
+  }
+}
+.con .recommend .lastitem {
+  min-width: 1rem;
+  height: 20vw;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+hr {
+  margin: 1rem;
+  border: .1px solid lightgrey;
+}
+
+.con .story {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+}
+.con .story .item {
+  min-width: 70vw;
+  height: 65vw;
+  margin: .5rem 0 0 1rem;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  animation: 1s shine infinite;
+  border-radius: 15px;
+}
+.con .story .lastitem {
+  min-width: 1rem;
+  height: 20vw;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+}
+footer .nav {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .nav .item {
+  text-align: center;
+}
+footer .nav .item svg {
+  width: 10vw;
+  height: 10vw;
+}

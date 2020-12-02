@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fullnessboy</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Mangan</title>
 </head>
 <body>
-  <div class="card">
-    <a href="#"></a>
-    <div class="card-text">
-      <img class="thumbnail" src="images.jpeg" alt="thumbnail">
-      <div class="title-total">
-        <div class="category">
-          <span>Resep</span>
-          <svg id="Bold" class="chefcheck" enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><g><path d="m12 0c-6.617 0-12 5.383-12 12s5.383 12 12 12 12-5.383 12-12-5.383-12-12-12zm6.989 10.044-1.087 6.333c-.062.36-.374.623-.739.623h-10.326c-.365 0-.677-.263-.739-.623l-1.087-6.333c-.048-.277.064-.558.289-.727.226-.17.525-.197.779-.074l2.894 1.409 2.372-4.267c.264-.477 1.047-.477 1.311 0l2.372 4.267 2.894-1.409c.253-.123.553-.096.779.074.224.169.336.45.288.727z" /></g>
-          </svg>
-        </div>
-        <h2>Ayam Bakar Taliwang</h2>
-        <div class="desc">
-          <div class="descbox">
-            30 Menit
-          </div>
-          <div class="descbox">
-            12 Bahan
-          </div>
-        </div>
-      </div>
+  <nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo" />
+    </div>
+    <div class="menu">
+      <svg class="icon line" id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></circle><line x1="21" y1="21" x2="15" y2="15" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line></svg>
+      <svg class="icon line" id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><line x1="9" y1="18" x2="21" y2="18" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><line x1="3" y1="12" x2="21" y2="12" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><line x1="3" y1="6" x2="15" y2="6" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line></svg>
+    </div>
+  </nav>
+  <div class="con">
+    <div class="title">
+      <h2>Kategori Populer</h2>
+    </div>
+    <div class="recommend">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="lastitem"></div>
     </div>
   </div>
+  <hr />
+  <div class="con">
+    <div class="story">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="lastitem"></div>
+    </div>
+  </div>
+  <footer>
+    <div class="nav">
+      <div class="item">
+        <svg class="icon glyph" id="dashboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="9" height="11" rx="2" style="fill: rgb(0, 0, 0);"></rect><rect x="13" y="2" width="9" height="7" rx="2" style="fill: rgb(0, 0, 0);"></rect><rect x="2" y="15" width="9" height="7" rx="2" style="fill: rgb(0, 0, 0);"></rect><rect x="13" y="11" width="9" height="11" rx="2" style="fill: rgb(0, 0, 0);"></rect></svg>
+        <p>
+          Home
+        </p>
+      </div>
+      <div class="item">
+        <svg class="icon line" id="bookmark-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7,3H19a0,0,0,0,1,0,0V7a0,0,0,0,1,0,0H7A2,2,0,0,1,5,5V5A2,2,0,0,1,7,3Z" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><path d="M19,7V20a1,1,0,0,1-1,1H7a2,2,0,0,1-2-2V5" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><polygon points="15 15 12 13 9 15 9 7 15 7 15 15" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polygon></svg>
+        <p>
+          Category
+        </p>
+      </div>
+      <div class="item">
+        <svg class="icon line" id="store" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,13v7a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V13" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><path d="M16.5,10.75A2.25,2.25,0,0,1,14.25,13h0A2.25,2.25,0,0,1,12,10.75m4.5,0A2.25,2.25,0,0,0,18.75,13h0A2.25,2.25,0,0,0,21,10.75h0a5.22,5.22,0,0,0-.21-1.47L19.21,3.73a1,1,0,0,0-1-.73H12M7.5,10.75A2.25,2.25,0,0,0,9.75,13h0A2.25,2.25,0,0,0,12,10.75M12,3H5.75a1,1,0,0,0-1,.73L3.21,9.28A5.22,5.22,0,0,0,3,10.75H3A2.25,2.25,0,0,0,5.25,13h0A2.25,2.25,0,0,0,7.5,10.75" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
+        <p>
+          Liked
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
 </body>
 </html>
